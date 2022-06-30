@@ -1,0 +1,76 @@
+body{
+    background-color: #293251;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.app-title{
+    font-weight: bolder;
+    width:100%;
+}
+
+.app-title p{
+    padding:15px;
+    color: #293251;
+    margin: 0;
+    font-size: 4vw;
+}
+
+.notification{
+    background-color: lightpink;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2vw;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.weather-container{
+    background-color: #F4F9FF;
+    width:80%;
+    margin: 0 auto;
+    
+}
+
+.img-icon{
+    margin:0 auto;
+    height: 40%;
+}
+
+img{
+    width:50%
+}
+
+.temp-value p{
+    padding: 0;
+    margin: 0;
+    font-size: 3vw;
+    color: #293251;
+    cursor:pointer;/*give the cursor a look of pointer*/
+}
+
+.temp-description p{
+    color:#293251;
+    font-size: 1.5vw;
+    margin: 0;
+    padding: 8px;
+}
+
+.location p{
+    color:#293251;
+    font-size: 1.5vw;
+    margin: 0;
+    padding: 8px;
+}
